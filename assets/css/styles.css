@@ -33,6 +33,12 @@ h4 {
     margin: 100px 100px;
 }
 
+@media only screen and (max-width: 600px) {
+    .about-text {
+        margin: 20px 20px;
+    }
+}
+
 .title {
     margin-bottom: 15px;
 
@@ -78,8 +84,9 @@ h4 {
     display: flex;
     margin-top: -40px;
     margin-bottom: -40px;
-    height: 700px;
+    min-height: 700px;
     justify-content:space-around;
+    flex-wrap: wrap;
 }
 
 .project-card {
@@ -104,7 +111,7 @@ h4 {
     font-size: 36px;
     color: #0A1612;
     height: 50px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .project-card p {
@@ -132,6 +139,23 @@ h4 {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 600px) {
+    .project-card {
+        width: 400px;
+        margin: 10px 25px;
+
+    }
+    .project-card img {
+        max-width: 400px;
+    }
+    .project-card p {
+        height: 30%;
+    }
+    .project-card h3 {
+        height: 80px;
+        padding-bottom: 30px;
+    }   
+}
 
 /* ABOUT ME STYLES */
 .about-me {
@@ -151,6 +175,15 @@ img {
     width: 30%;
     margin: auto;
     font-family: 'Open Sans';
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me-text {
+        padding: 20px;
+    }
+    .about-me-text p {
+        width: 75%;
+    }
 }
 
 /* FOOTER STYLES */
