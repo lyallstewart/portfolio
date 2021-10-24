@@ -56,7 +56,7 @@ h4 {
 
 .about-paragraph {
     font-family: "Open Sans", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     
     margin-bottom: 50px;
 }
@@ -120,7 +120,8 @@ h4 {
     margin: 40px;
     margin-top: 10px;
     margin-bottom: 30px;
-    height: 140px;
+    height: 180px;
+    font-size: 18px;
 }
 
 .project-button {
@@ -176,12 +177,37 @@ img {
 
 .about-me-text {
     padding: 50px;
+    width: 75%;
+    margin: auto;
+    font-size: 20px;
 }
 
 .about-me-text p {
     width: 30%;
     margin: auto;
     font-family: 'Open Sans';
+}
+
+.skills-list {
+    text-align: left;
+    width: 500px;
+    margin: auto;
+    font-family: 'Open Sans';
+}
+
+.skills-list li {
+    font-size: 18px;
+}
+
+.profile-link {
+    color: #08130f;
+    display: block;
+    transition: 0.3s ease-in;
+}
+
+.profile-link:hover {
+    color: #314953;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
