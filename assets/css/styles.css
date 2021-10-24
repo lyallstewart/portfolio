@@ -92,9 +92,10 @@ h4 {
 .project-card {
     background-color: #D2D6D2;
     height: 700px;
-    width: 500px;
+    width: 450px;
     margin: 0 30px;
     transition: 0.7s;
+    position: relative;
 }
 
 .project-card:hover {
@@ -103,14 +104,14 @@ h4 {
 }
 
 .project-card img {
-    height: 250px;
+    max-width: 450px;
 }
 
 .project-card h3 {
     font-family: 'Playfair Display';
     font-size: 36px;
     color: #0A1612;
-    height: 50px;
+    height: 90px;
     margin-bottom: 10px;
 }
 
@@ -118,8 +119,15 @@ h4 {
     font-family: 'Open Sans';
     margin: 40px;
     margin-top: 10px;
-    margin-bottom: 20px;
-    height: 120px;
+    margin-bottom: 30px;
+    height: 140px;
+}
+
+.project-button {
+    margin-bottom: 30px;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
 }
 
 .button-secondary {
@@ -143,7 +151,6 @@ h4 {
     .project-card {
         width: 400px;
         margin: 10px 25px;
-
     }
     .project-card img {
         max-width: 400px;
