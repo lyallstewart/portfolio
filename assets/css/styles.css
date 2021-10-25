@@ -190,7 +190,7 @@ img {
 
 .skills-list {
     text-align: left;
-    width: 50%;
+    width: 500px;
     margin: auto;
     font-family: 'Open Sans';
 }
@@ -216,6 +216,9 @@ img {
     }
     .about-me-text p {
         width: 75%;
+    }
+    .skills-list {
+        width: 50%;
     }
 }
 
