@@ -270,6 +270,6 @@ footer p {
 
 @media only screen and (max-width: 600px) {
     input, textarea {
-        width: 100%;    
+        width: 300px;    
     }
 }
