@@ -26,7 +26,7 @@ h4 {
 /* HERO STYLES */
 .about-hero {
     background-color: #C5C0C0;
-    padding: 50px;
+    padding: 30px;
 }
 
 .about-text {
@@ -41,13 +41,14 @@ h4 {
 
 .title {
     margin-bottom: 15px;
+    width: 260px;
 
     font-family: 'Playfair Display';
     line-height: 120%;
 
     color: #08130f;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 60px;
 }
 
 .title span {
@@ -82,11 +83,16 @@ h4 {
 /* PORTFOLIO STYLES */
 .my-work {
     display: flex;
-    margin-top: -40px;
-    margin-bottom: -40px;
     min-height: 700px;
     justify-content:space-around;
     flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 600px) {
+    .my-work {
+        margin-top: -40px;
+        margin-bottom: -40px;
+    }
 }
 
 .project-card {
@@ -150,19 +156,24 @@ h4 {
 
 @media only screen and (max-width: 600px) {
     .project-card {
-        width: 400px;
+        width: 100%;
         margin: 10px 25px;
     }
     .project-card img {
-        max-width: 400px;
+        width: 100%;
     }
     .project-card p {
         height: 30%;
+        font-size: 16px;
     }
     .project-card h3 {
         height: 80px;
         padding-bottom: 30px;
     }   
+    .project-button {
+        top: 75px;
+
+    }
 }
 
 /* ABOUT ME STYLES */
