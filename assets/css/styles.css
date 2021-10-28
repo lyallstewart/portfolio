@@ -158,22 +158,20 @@ h4 {
     .project-card {
         width: 100%;
         margin: 10px 25px;
+        height: fit-content;
     }
     .project-card img {
         width: 100%;
     }
     .project-card p {
-        height: 30%;
+        height: 50%;
         font-size: 16px;
+        padding-bottom: 20px;
     }
     .project-card h3 {
-        height: 80px;
+        height: fit-content;
         padding-bottom: 30px;
     }   
-    .project-button {
-        top: 75px;
-
-    }
 }
 
 /* ABOUT ME STYLES */
