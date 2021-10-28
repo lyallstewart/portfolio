@@ -126,7 +126,7 @@ h4 {
     margin: 40px;
     margin-top: 10px;
     margin-bottom: 30px;
-    height: 180px;
+    height: fit-content;
     font-size: 18px;
 }
 
